@@ -41,9 +41,6 @@ module.exports = function (url, opts) {
 
       }, omit(opts, Object.keys(optionsDefault)));
 
-      console.log(opts);
-      console.log(options);
-      console.log(params);
 
       rp(params)
         .then(resp => {
@@ -51,8 +48,6 @@ module.exports = function (url, opts) {
           if (options.callback) {
             options.callback(null, resp);
           }
-
-          next();
 
         })
         .catch( err => {
