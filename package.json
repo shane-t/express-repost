@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" : "shane-t/express-repost",
   "author": "Shane Terence Odlum <me@shanet.ie>",
   "license": "MIT",
   "dependencies": {
